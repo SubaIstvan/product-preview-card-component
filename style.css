@@ -1,0 +1,87 @@
+body{
+background-color: hsl(30, 38%, 92%);
+}
+
+/* font-styles */
+.parfume-title{
+  font-family: Montserrat-Bold;
+  font-weight: 900;
+  line-height: 1;
+}
+.top-text{
+  font-family: Fraunces;
+  font-weight: 700;
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 0.1em;
+}
+.body-text{
+  color: hsl(228, 12%, 48%);
+  font-size: 14px;
+}
+
+.sales-price{
+color: hsl(158, 36%, 37%);
+font-size: 2em;
+font-weight: bold;
+margin-right: 20px;
+
+}
+.full-price{
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+}
+
+/* Card style */
+.card{
+  border: none;
+  max-width: 600px;
+  margin-top: 10%;
+}
+.card-body{
+  padding-left: 40px;
+  padding-right: 40px;
+
+}
+
+/* button styles */
+.btn{
+  margin-top:20px;
+  width:100%;
+}
+.btn:hover{
+background-color: hsl(212, 21%, 14%);
+}
+.cart-logo{
+  margin-right: 10px;
+}
+
+
+/* frontendmentor footer */
+.attribution{
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a{
+  color: hsl(228, 45%, 44%);
+}
+
+/* images style */
+.mobile-img{
+  display: none;
+}
+.image2{
+   display: none;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 575px){
+   .desktop-img{
+     display: none;
+   }
+   .mobile-img{
+     display: block;
+   }
+   .card{
+     margin-top: 0;
+   }
+}
